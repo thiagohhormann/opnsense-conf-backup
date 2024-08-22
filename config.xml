@@ -576,9 +576,9 @@ AAAECSqrHoAFnzqI7pD27aAvj2nOd7Cz+ZGGRf2YQ+hmtbaP+i/slvnJkRpe+oZWnvjJV2&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1724289354.431</time>
+    <username>root@192.168.56.1</username>
+    <description>/api/cron/settings/setJob/4b93428f-314f-42a4-ad81-78b673f3064d made changes</description>
+    <time>1724289450.0822</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -625,8 +625,8 @@ AAAECSqrHoAFnzqI7pD27aAvj2nOd7Cz+ZGGRf2YQ+hmtbaP+i/slvnJkRpe+oZWnvjJV2&#xD;
         <job uuid="4b93428f-314f-42a4-ad81-78b673f3064d">
           <origin>cron</origin>
           <enabled>1</enabled>
-          <minutes>0</minutes>
-          <hours>1</hours>
+          <minutes>1</minutes>
+          <hours>*</hours>
           <days>*</days>
           <months>*</months>
           <weekdays>*</weekdays>
