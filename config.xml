@@ -256,7 +256,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-squid</plugins>
+      <plugins>os-git-backup,os-nginx,os-squid</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -577,8 +577,8 @@ AAAECSqrHoAFnzqI7pD27aAvj2nOd7Cz+ZGGRf2YQ+hmtbaP+i/slvnJkRpe+oZWnvjJV2&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1724292355.7667</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1724292356.3694</time>
   </revision>
   <OPNsense>
     <wireguard>
