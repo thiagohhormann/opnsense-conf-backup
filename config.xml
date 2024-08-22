@@ -577,8 +577,8 @@ AAAECSqrHoAFnzqI7pD27aAvj2nOd7Cz+ZGGRf2YQ+hmtbaP+i/slvnJkRpe+oZWnvjJV2&#xD;
   </widgets>
   <revision>
     <username>root@192.168.56.1</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1724288508.4786</time>
+    <description>/api/cron/settings/addJob/ made changes</description>
+    <time>1724289303.4157</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -621,7 +621,21 @@ AAAECSqrHoAFnzqI7pD27aAvj2nOd7Cz+ZGGRf2YQ+hmtbaP+i/slvnJkRpe+oZWnvjJV2&#xD;
       <templates/>
     </captiveportal>
     <cron version="1.0.4">
-      <jobs/>
+      <jobs>
+        <job uuid="4b93428f-314f-42a4-ad81-78b673f3064d">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>1</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>system remote backup</command>
+          <parameters/>
+          <description>remote backup</description>
+        </job>
+      </jobs>
     </cron>
     <Firewall>
       <Lvtemplate version="0.0.1">
