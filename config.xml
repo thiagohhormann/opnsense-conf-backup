@@ -576,9 +576,9 @@ AAAECSqrHoAFnzqI7pD27aAvj2nOd7Cz+ZGGRf2YQ+hmtbaP+i/slvnJkRpe+oZWnvjJV2&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1724292356.3694</time>
+    <username>root@192.168.56.1</username>
+    <description>/diag_backup.php made changes</description>
+    <time>1724294006.4178</time>
   </revision>
   <OPNsense>
     <wireguard>
